@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+width: 100%;
+height: 100%;
+display: block;
+}
+.slider{
+    padding: 0 15px;
+    height: 500px;
+}
+#banner .arrows .rightarrow,
+#banner .arrows .leftarrow{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+text-align: center;
+background-color: rgb(223, 44, 44);
+cursor: pointer;
+position: absolute;
+z-index: 9999;
+
+}
+#banner .arrows .rightarrow{
+    top: 50%;
+   right:  0;
+    
+}
+#banner .arrows .leftarrow{
+    top: 50%;
+
+    
+}
+
+#banner .slick-dots{
+    text-align:center ;
+    list-style: none;
+}
+#banner .slick-dots li{
+    display: inline-block;
+}
+#banner .slick-dots li button{
+    width: 10px;
+    margin: 3px 5px;
+    height: 10px;
+    border-radius: 50%;
+    color: transparent;
+    background-color: rgba(0, 0, 0, 0.514);
+    border: none;
+}
+#banner .slick-dots li.slick-active button{
+    width: 10px;
+    background-color: black;
+}
+.deletButton{
+    margin-top: 30%;
+}
